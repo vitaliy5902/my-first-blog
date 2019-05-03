@@ -1,0 +1,72 @@
+vitaliy19@vitaliy19-System:~/Рабочий стол$ cd ../mt_forge
+vitaliy19@vitaliy19-System:~/mt_forge$ source myvenv/bin/activate
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge$ cd djg
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/djg$ python manage.py startapp blog
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/djg$ python manage.py makemigrations blog
+Migrations for 'blog':
+  blog/migrations/0001_initial.py
+    - Create model Post
+
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/djg$ python manage.py migrate blog
+Operations to perform:
+  Apply all migrations: blog
+Running migrations:
+  Applying blog.0001_initial... OK
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/djg$ python manage.py createsuperuser
+Username (leave blank to use 'vitaliy19'): 
+Email address: 111@222.ua                
+Password: 
+Password (again): 
+Superuser created successfully.
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/djg$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 03, 2019 - 07:18:22
+Django version 2.0.13, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[03/May/2019 07:18:33] "GET /admin/ HTTP/1.1" 302 0
+[03/May/2019 07:18:34] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1945
+[03/May/2019 07:18:34] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[03/May/2019 07:18:34] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[03/May/2019 07:18:34] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+Not Found: /favicon.ico
+[03/May/2019 07:18:34] "GET /favicon.ico HTTP/1.1" 404 1972
+[03/May/2019 07:18:34] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[03/May/2019 07:18:34] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[03/May/2019 07:18:34] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[03/May/2019 07:19:16] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2216
+[03/May/2019 07:19:16] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 8192
+[03/May/2019 07:20:20] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[03/May/2019 07:20:20] "GET /admin/ HTTP/1.1" 200 3940
+[03/May/2019 07:20:20] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[03/May/2019 07:20:21] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[03/May/2019 07:20:21] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[03/May/2019 07:21:35] "GET /admin/blog/post/add/ HTTP/1.1" 200 7762
+[03/May/2019 07:21:35] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[03/May/2019 07:21:35] "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[03/May/2019 07:21:35] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[03/May/2019 07:21:35] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[03/May/2019 07:21:35] "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[03/May/2019 07:21:35] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[03/May/2019 07:21:35] "GET /admin/jsi18n/ HTTP/1.1" 200 14871
+[03/May/2019 07:21:35] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[03/May/2019 07:21:35] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[03/May/2019 07:21:35] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+[03/May/2019 07:21:35] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[03/May/2019 07:21:35] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[03/May/2019 07:21:35] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[03/May/2019 07:21:35] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20283
+[03/May/2019 07:21:35] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[03/May/2019 07:21:35] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[03/May/2019 07:21:35] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[03/May/2019 07:22:56] "POST /admin/blog/post/add/ HTTP/1.1" 302 0
+[03/May/2019 07:22:56] "GET /admin/blog/post/ HTTP/1.1" 200 4832
+[03/May/2019 07:22:56] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[03/May/2019 07:22:56] "GET /admin/jsi18n/ HTTP/1.1" 200 14871
+[03/May/2019 07:22:56] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[03/May/2019 07:22:56] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[03/May/2019 07:23:01] "GET /admin/blog/post/1/change/ HTTP/1.1" 200 8065
+[03/May/2019 07:23:01] "GET /admin/jsi18n/ HTTP/1.1" 200 14871
+

@@ -52,4 +52,10 @@ vitaliy19@vitaliy19-System:~/mt_forge/djg$ git commit -m "My Django Girls app, f
  create mode 100644 mysite/wsgi.py
  create mode 100644 "\320\277\320\276 \320\240\321\203\320\272\320\276\320\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05"
  create mode 100644 "\320\277\320\276 \320\240\321\203\320\272\320\276\320\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05.19"
+vitaliy19@vitaliy19-System:~/mt_forge/djg$ git add --all .
+vitaliy19@vitaliy19-System:~/mt_forge/djg$ git commit -m "My Django Girls app, first_1 commit"
+[master 9e37e2d] My Django Girls app, first_1 commit
+ 3 files changed, 57 insertions(+), 74 deletions(-)
+ rewrite man (97%)
+ delete mode 100644 "\320\277\320\276 \320\240\321\203\320\272\320\276\320\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05"
 vitaliy19@vitaliy19-System:~/mt_forge/djg$ 

@@ -1,0 +1,59 @@
+vitaliy19@vitaliy19-System:~/Рабочий стол$ . ./cd2
+vitaliy19@vitaliy19-System:~/mt_forge$ . ./act
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge$ . ./rs2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 07, 2019 - 22:05:37
+Django version 2.0.13, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[07/Aug/2019 22:05:45] "GET / HTTP/1.1" 200 961
+[07/Aug/2019 22:05:45] "GET /static/images/mont_1.JPG HTTP/1.1" 404 1675
+[07/Aug/2019 22:06:55] "GET / HTTP/1.1" 200 959
+[07/Aug/2019 22:06:55] "GET /static/images/mont.JPG HTTP/1.1" 304 0
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge$ $ git add --all .
+git: «t» не является командой git. Смотрите «git --help».
+
+Самые похожие команды:
+	tag
+	am
+	gc
+	init
+	mv
+	rm
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge$ git add --all .
+fatal: не найден git репозиторий (или один из его каталогов вплоть до точки монтирования /)
+Останавливаю поиск на границе файловой системы (так как GIT_DISCOVERY_ACROSS_FILESYSTEM не установлен).
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge$ cd 005_третье_развёртывание_фото_ссылка_таблица
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/005_третье_развёртывание_фото_ссылка_таблица$ 
+git add --all .
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/005_третье_развёртывание_фото_ссылка_таблица$ 
+git commit -m "Changed the HTML for the site2."
+git: «coi commitChanged the HTML for the site2.» не является командой git. Смотрите «git --help».
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/005_третье_развёртывание_фото_ссылка_таблица$ 
+^Ct a
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/005_третье_развёртывание_фото_ссылка_таблица$ 
+git commit -m "Changed the HTML for the 4"
+[master 4fdaa85] Changed the HTML for the site.4
+ 3 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 rm
+ delete mode 100644 static/images/mont_1.JPG
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/005_третье_развёртывание_фото_ссылка_таблица$ 
+git push
+Username for 'https://github.com': vitaliy5902
+Password for 'https://vitaliy5902@github.com': 
+To https://github.com/vitaliy5902/my-first-blog.git
+ ! [rejected]        master -> master (fetch first)
+error: не удалось отправить некоторые ссылки в «https://github.com/vitaliy5902/my-first-blog.git»
+подсказка: Обновления были отклонены, так как внешний репозиторий содержит
+подсказка: изменения, которых у вас нет в вашем локальном репозитории.
+подсказка: Обычно, это связанно с тем, что кто-то уже отправил изменения в 
+подсказка: то же место. Перед повторной отправкой ваших изменений, вам нужно
+подсказка: забрать и слить изменения из внешнего репозитория себе
+подсказка: (например, с помощью «git pull …»).
+подсказка: Для дополнительной информации, смотрите «Note about fast-forwards»
+подсказка: в «git push --help».
+(myvenv) vitaliy19@vitaliy19-System:~/mt_forge/005_третье_развёртывание_фото_ссылка_таблица$ 
+
+

@@ -1,25 +1,34 @@
+<!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
-<title>Django Girls blog</title>
+<meta charset="utf-8" />
+<title>Hello Django</title>
 </head>
 <body>
-<div>
-<h1><a href="/">Django Girls Blog</a></h1>
-</div>
-<div>
-<p>published: 14.06.2014, 12:14</p>
-<h2><a href="">My first post</a></h2>
-<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce
-dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-fermentum massa justo sit amet risus.</p>
-</div>
-<div>
-<p>published: 14.06.2014, 12:14</p>
-<h2><a href="">My second post</a></h2>
-<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce
-dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
-</div>
+
+
+
+<center>
+<table width="900" height="700">
+<tr>
+<td bgcolor="#c0e4ff" valign="top"><img src="{% static "images/mont.JPG" %}"></td>
+<!-- ниже ссылка(остальные картинки)-->
+<td bgcolor="#c5ffa0" valign="top"><center><a href="/admin/"> <img src="{% static "images/mont.JPG" %}" alt="HTML tutorial"></center></td>
+<td bgcolor="#c0e4ff" align="right" valign="top"><img src="{% static "images/mont.JPG" %}"></td>
+</tr>
+<tr>
+<td bgcolor="#c5ffa0"><img src="{% static "images/mont.JPG" %}"></td>
+<td bgcolor="#ffa0c5"><center>5</center></td>
+<td bgcolor="#c5ffa0" align="right">6</td>
+</tr>
+<tr>
+<td bgcolor="#c0e4ff" valign="bottom"><img src="{% static "images/mont.JPG" %}"></td>
+<td bgcolor="#c5ffa0" valign="bottom"><center>8</center></td>
+<td bgcolor="#c0e4ff" align="right" valign="bottom">9</td>
+</tr>
+</table>
+</center>
+
 </body>
 </html>

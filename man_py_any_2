@@ -1,0 +1,127 @@
+02:27 ~ $ ls
+README.txt  py5vita5tutor.pythonanywhere.com
+02:27 ~ $ cd py5vita5tutor.pythonanywhere.com
+02:30 ~/py5vita5tutor.pythonanywhere.com (master)$ ls
+blog                                   man        static                                   проект не сохранён
+02:27 ~ $ ls
+02:27 ~ $ ls
+README.txt  py5vita5tutor.pythonanywhere.com
+02:27 ~ $ cd py5vita5tutor.pythonanywhere.com
+02:30 ~/py5vita5tutor.pythonanywhere.com (master)$ ls
+blog                                   man        static                                   проект не сохранён
+db.sqlite3                             manage.py  по Руководство Django Girls_ub_02.05
+lefi manual  Django Girls_ub_02.05.19  mysite     по Руководство Django Girls_ub_02.05.19
+02:31 ~/py5vita5tutor.pythonanywhere.com (master)$ git pull
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 14 (delta 4), reused 14 (delta 4), pack-reused 0
+Unpacking objects: 100% (14/14), done.
+From https://github.com/vitaliy5902/my-first-blog
+   d75cd01..e703500  master     -> origin/master
+Updating d75cd01..e703500
+Fast-forward
+ blog/templates/blog/post_list.html                                                |  25 ++++++++++++++++
+ blog/urls.py                                                                      |   6 ++++
+ blog/views.py                                                                     |   3 +-
+ lefi manual  Django Girls_ub_02.05.19                                             |   2 --
+ man                                                                               |  61 ---------------------------------------
+ mysite/__pycache__/urls.cpython-36.pyc                                            | Bin 904 -> 993 bytes
+ mysite/urls.py                                                                    |   3 ++
+ ...\272 \321\215\320\272\321\200\320\260\320\275\320\260_2019-08-06_21-51-24.png" | Bin 0 -> 50680 bytes
+ "\320\264\320\276"                                                                |   1 +
+ ...320\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05" |   1 -
+ ...\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05.19" |   2 --
+ ...\275\320\265 \321\201\320\276\321\205\321\200\320\260\320\275\321\221\320\275" |   0
+ 12 files changed, 37 insertions(+), 67 deletions(-)
+ create mode 100644 blog/templates/blog/post_list.html
+ create mode 100644 blog/urls.py
+ delete mode 100644 lefi manual  Django Girls_ub_02.05.19
+ delete mode 100644 man
+ create mode 100644 "\320\241\320\275\320\270\320\274\320\276\320\272 \321\215\320\272\321\200\320\260\320\275\320\260_2019-08-06_21-51-24.png"
+ create mode 100644 "\320\264\320\276"
+ delete mode 100644 "\320\277\320\276 \320\240\321\203\320\272\320\276\320\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05"
+ delete mode 100644 "\320\277\320\276 \320\240\321\203\320\272\320\276\320\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05.19"
+ delete mode 100644 "\320\277\321\200\320\276\320\265\320\272\321\202 \320\275\320\265 \321\201\320\276\321\205\321\200\320\260\320\275\321\221\320\275"
+02:32 ~/py5vita5tutor.pythonanywhere.com (master)$ git pull
+remote: Enumerating objects: 16, done.
+02:27 ~ $ ls
+README.txt  py5vita5tutor.pythonanywhere.com
+02:27 ~ $ cd py5vita5tutor.pythonanywhere.com
+02:30 ~/py5vita5tutor.pythonanywhere.com (master)$ ls
+blog                                   man        static                                   проект не сохранён
+db.sqlite3                             manage.py  по Руководство Django Girls_ub_02.05
+lefi manual  Django Girls_ub_02.05.19  mysite     по Руководство Django Girls_ub_02.05.19
+02:31 ~/py5vita5tutor.pythonanywhere.com (master)$ git pull
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 14 (delta 4), reused 14 (delta 4), pack-reused 0
+Unpacking objects: 100% (14/14), done.
+From https://github.com/vitaliy5902/my-first-blog
+   d75cd01..e703500  master     -> origin/master
+Updating d75cd01..e703500
+Fast-forward
+ blog/templates/blog/post_list.html                                                |  25 ++++++++++++++++
+ blog/urls.py                                                                      |   6 ++++
+ blog/views.py                                                                     |   3 +-
+ lefi manual  Django Girls_ub_02.05.19                                             |   2 --
+ man                                                                               |  61 ---------------------------------------
+ mysite/__pycache__/urls.cpython-36.pyc                                            | Bin 904 -> 993 bytes
+ mysite/urls.py                                                                    |   3 ++
+ ...\272 \321\215\320\272\321\200\320\260\320\275\320\260_2019-08-06_21-51-24.png" | Bin 0 -> 50680 bytes
+ "\320\264\320\276"                                                                |   1 +
+ ...320\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05" |   1 -
+ ...\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05.19" |   2 --
+ ...\275\320\265 \321\201\320\276\321\205\321\200\320\260\320\275\321\221\320\275" |   0
+ 12 files changed, 37 insertions(+), 67 deletions(-)
+ create mode 100644 blog/templates/blog/post_list.html
+ create mode 100644 blog/urls.py
+ delete mode 100644 lefi manual  Django Girls_ub_02.05.19
+ delete mode 100644 man
+ create mode 100644 "\320\241\320\275\320\270\320\274\320\276\320\272 \321\215\320\272\321\200\320\260\320\275\320\260_2019-08-06_21-51-24.png"
+ create mode 100644 "\320\264\320\276"
+ delete mode 100644 "\320\277\320\276 \320\240\321\203\320\272\320\276\320\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05"
+ delete mode 100644 "\320\277\320\276 \320\240\321\203\320\272\320\276\320\262\320\276\320\264\321\201\321\202\320\262\320\276 Django Girls_ub_02.05.19"
+ delete mode 100644 "\320\277\321\200\320\276\320\265\320\272\321\202 \320\275\320\265 \321\201\320\276\321\205\321\200\320\260\320\275\321\221\320\275"
+02:32 ~/py5vita5tutor.pythonanywhere.com (master)$ git pull
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 11 (delta 2), reused 11 (delta 2), pack-reused 0
+Unpacking objects: 100% (11/11), done.
+From https://github.com/vitaliy5902/my-first-blog
+   e703500..92bdaa3  master     -> origin/master
+Updating e703500..92bdaa3
+Fast-forward
+ blog/templates/blog/post_list.html                                                |  47 +++++++++++++++++++++++----------------
+ man_local                                                                         |  19 ++++++++++++++++
+ man_py_any/man_py_any_                                                            |  44 ++++++++++++++++++++++++++++++++++++
+ ...\272 \321\215\320\272\321\200\320\260\320\275\320\260_2019-08-07_05-43-11.png" | Bin 0 -> 282988 bytes
+ ...\272 \321\215\320\272\321\200\320\260\320\275\320\260_2019-08-07_05-35-11.png" | Bin 0 -> 39138 bytes
+ 5 files changed, 91 insertions(+), 19 deletions(-)
+ create mode 100644 man_local
+ create mode 100644 man_py_any/man_py_any_
+ create mode 100644 "man_py_any/\320\241\320\275\320\270\320\274\320\276\320\272 \321\215\320\272\321\200\320\260\320\275\320\260
+_2019-08-07_05-43-11.png"
+ create mode 100644 "\320\241\320\275\320\270\320\274\320\276\320\272 \321\215\320\272\321\200\320\260\320\275\320\260_2019-08-07
+_05-35-11.png"
+04:17 ~/py5vita5tutor.pythonanywhere.com (master)$ git pull
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 1), reused 9 (delta 1), pack-reused 0
+Unpacking objects: 100% (9/9), done.
+From https://github.com/vitaliy5902/my-first-blog
+   92bdaa3..1140f83  master     -> origin/master
+Updating 92bdaa3..1140f83
+Fast-forward
+ .gitignore               |   2 +-
+ static/css/styles.css    |   3 +++
+ static/images/mont.JPG   | Bin 0 -> 20068 bytes
+ static/images/python.JPG | Bin 0 -> 79364 bytes
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100755 static/css/styles.css
+ create mode 100755 static/images/mont.JPG
+ create mode 100755 static/images/python.JPG
+04:32 ~/py5vita5tutor.pythonanywhere.com (master)$ 

@@ -1,0 +1,91 @@
+vitaliy19@vitaliy19-System:~/Рабочий стол$ . ./cd2
+vitaliy19@vitaliy19-System:~/mt_forge$ cd 004_второе_развёртывание
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ ls
+ blog         man_py_any  'Снимок экрана_2019-08-06_21-51-24.png'
+ db.sqlite3   mysite      'Снимок экрана_2019-08-07_05-35-11.png'
+ manage.py    static
+ man_local    до
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git add --all .
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git commit -m "ref img table"
+[master 92bdaa3] ref img table
+ 5 files changed, 97 insertions(+), 25 deletions(-)
+ rewrite blog/templates/blog/post_list.html (94%)
+ create mode 100644 man_local
+ create mode 100644 man_py_any/man_py_any_
+ create mode 100644 "man_py_any/\320\241\320\275\320\270\320\274\320\276\320\272 \321\215\320\272\321\200\320\260\320\275\320\260_2019-08-07_05-43-11.png"
+ create mode 100644 "\320\241\320\275\320\270\320\274\320\276\320\272 \321\215\320\272\321\200\320\260\320\275\320\260_2019-08-07_05-35-11.png"
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git push
+Username for 'https://github.com': vitaliy5902
+Password for 'https://vitaliy5902@github.com': 
+Перечисление объектов: 16, готово.
+Подсчет объектов: 100% (16/16), готово.
+При сжатии изменений используется до 2 потоков
+Сжатие объектов: 100% (9/9), готово.
+Запись объектов: 100% (11/11), 298.53 KiB | 7.11 MiB/s, готово.
+Всего 11 (изменения 2), повторно использовано 0 (изменения 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/vitaliy5902/my-first-blog.git
+   e703500..92bdaa3  master -> master
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git status
+На ветке master
+Ваша ветка обновлена в соответствии с «origin/master».
+
+нечего коммитить, нет изменений в рабочем каталоге
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git status
+На ветке master
+Ваша ветка обновлена в соответствии с «origin/master».
+
+нечего коммитить, нет изменений в рабочем каталоге
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ ls
+ blog         manage.py   man_py_any   static  'Снимок экрана_2019-08-06_21-51-24.png'
+ db.sqlite3   man_local   mysite       до      'Снимок экрана_2019-08-07_05-35-11.png'
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git status
+На ветке master
+Ваша ветка обновлена в соответствии с «origin/master».
+
+Изменения, которые не в индексе для коммита:
+  (используйте «git add <файл>…», чтобы добавить файл в индекс)
+  (используйте «git checkout -- <файл>…», чтобы отменить изменения
+   в рабочем каталоге)
+
+	изменено:      .gitignore
+
+Неотслеживаемые файлы:
+  (используйте «git add <файл>…», чтобы добавить в то, что будет включено в коммит)
+
+	static/
+
+нет изменений добавленных для коммита
+(используйте «git add» и/или «git commit -a»)
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git add --all .
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git commit -m "ref img table find static"
+[master 1140f83] ref img table find static
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100755 static/css/styles.css
+ create mode 100755 static/images/mont.JPG
+ create mode 100755 static/images/python.JPG
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git push
+Username for 'https://github.com': vitaliy
+Password for 'https://vitaliy@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/vitaliy5902/my-first-blog.git/'
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git push
+Username for 'https://github.com': vitaliy5920
+Password for 'https://vitaliy5920@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/vitaliy5902/my-first-blog.git/'
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ git push
+Username for 'https://github.com': vitaliy5902
+Password for 'https://vitaliy5902@github.com': 
+Перечисление объектов: 11, готово.
+Подсчет объектов: 100% (11/11), готово.
+При сжатии изменений используется до 2 потоков
+Сжатие объектов: 100% (7/7), готово.
+Запись объектов: 100% (9/9), 83.36 KiB | 8.34 MiB/s, готово.
+Всего 9 (изменения 1), повторно использовано 0 (изменения 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/vitaliy5902/my-first-blog.git
+   92bdaa3..1140f83  master -> master
+vitaliy19@vitaliy19-System:~/mt_forge/004_второе_развёртывание$ 
+
+
